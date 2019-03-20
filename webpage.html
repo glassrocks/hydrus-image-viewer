@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 	<head>
 		<title>Hydrus Image Viewer</title>
@@ -14,9 +15,11 @@
 	</head>
 	<body>
 		<!-- The form -->
-		<form class="search-box" action="submit_search.php">
-		  <input type="text" placeholder="Enter tags to search" name="search">
+		<form class="search-box" action="hydrus_submit" method="post">
+		  <input type="text" placeholder="Enter tags to search" name="hydrus_command">
 		  <button type="submit"><i class="fa fa-search"></i></button>
-		</form> 
+		</form>
+		<br>
+		<p class="hdyrus_response">update this with response</p> 
 	</body>
 </html> 
